@@ -64,7 +64,7 @@
         <%
         }
     %>
-            <%-- uzmi posle ispomeraj ove linkove u messendzer/admin jsp-ove kad odradis ostale servlete lepo --%>
+            
 
         
         
