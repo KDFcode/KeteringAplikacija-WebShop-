@@ -26,7 +26,7 @@
                 <th> ime </th>
                 <th> lozinka </th>
             </tr>
-            <%--ovaj deo ces obrisati/staviti u neku drugu stranicu kad doradis posle jos--%>
+           
             
             
             
