@@ -44,7 +44,7 @@
             <%--ovaj deo ces obrisati/staviti u neku drugu stranicu kad doradis posle jos--%>
             
             
-            <%-- pokusaj ipak da dovuces celu listu, pa da onda ovde odradis for petlju gde proverava je li to taj,pa ga onda teraj dalje--%>
+           
              <% korisnik pom = trenutno_ulogovaniNalog;%>
             <tr>   
                 <%--odraditi preko expression language-a  takodje--%>
@@ -52,7 +52,7 @@
                 <th> <%= pom.getIme()%>   </th>
                 <th> <%= pom.getLozinka()%> <%--{lozinka}--%></th>
             </tr>
-            <!-- Vidi naruci.jsp i kupiservlet sta si ranije pokusavao,iz ketering projekta,pa iskoristi ovde -->
+            
             
             
         </table>  
