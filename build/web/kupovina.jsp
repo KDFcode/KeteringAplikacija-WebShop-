@@ -14,9 +14,6 @@
         <title>JSP Page</title>
     </head>
     
-     <%-- <% //ArrayList<korisnik> lista= (ArrayList<korisnik>)request.getAttribute("lista");       %>  --%> 
-    <!-- uzmi posle sredi sesije i uloge pa ubaci ovde da ti to prenosi-->
-    
     trenutno_ulogovani
     <body>
          
@@ -32,7 +29,7 @@
             <%--ovaj deo ces obrisati/staviti u neku drugu stranicu kad doradis posle jos--%>
             
             
-            <%-- pokusaj ipak da dovuces celu listu, pa da onda ovde odradis for petlju gde proverava je li to taj,pa ga onda teraj dalje--%>
+            
              <% for (korisnik pom:listaUlogovan) {%>
             <tr>   
                 <%--odraditi preko expression language-a  takodje--%>
@@ -52,7 +49,7 @@
                 <th> opis </th>
                 <th> cena </th>
             </tr>
-             <!-- ovde posle uzmi da ti lista automatski sve proizvode //odradi to u loginservletu ako treba //da ti salje kao parametar listu-->
+             
             <% //for (korisnik pom:lista) {%>
             <tr>   
                  <!-- odraditi preko expression language prica {naziv},{opis} itd. umesto pom.getNaziv() itd.-->
@@ -84,7 +81,7 @@
                 <th> opis </th>
                 <th> cena </th>
             </tr>
-             <!-- ovde posle uzmi da ti lista automatski sve proizvode //odradi to u loginservletu ako treba //da ti salje kao parametar listu-->
+             
             <% for (proizvodBean pom2:listaProizvoda) {%>
             <tr>   
                  <!-- odraditi preko expression language prica {naziv},{opis} itd. umesto pom.getNaziv() itd.-->
